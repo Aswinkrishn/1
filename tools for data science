@@ -1,14 +1,152 @@
-car_types = ["gasoline", "electric"]
-car_models = ["model x", "model z", "model y"]
-
-print("types")
-for a in car_types:
-    print(a)
-    for b in a:
-        print(b)
-
-print("models")
-for a in car_models:
-    print(a)
-    for b in a:
-        print(b)
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "# My Jupyter Notebook"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "## **Aswin**\n",
+    "Desired : Data Scientist"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "*I am interested in Data Science because it is challenging and enganging me in real world problems and the amount of attraction is huge, at least for me. Somehow, Data Science also making me constantly thinking how to make better life for ourselves and others as well, thus making me excited and being thankful more in life.*"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "### The code below supposed to handle simple algorithm"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "types\n",
+      "gasoline\n",
+      "g\n",
+      "a\n",
+      "s\n",
+      "o\n",
+      "l\n",
+      "i\n",
+      "n\n",
+      "e\n",
+      "electric\n",
+      "e\n",
+      "l\n",
+      "e\n",
+      "c\n",
+      "t\n",
+      "r\n",
+      "i\n",
+      "c\n",
+      "models\n",
+      "model x\n",
+      "m\n",
+      "o\n",
+      "d\n",
+      "e\n",
+      "l\n",
+      " \n",
+      "x\n",
+      "model z\n",
+      "m\n",
+      "o\n",
+      "d\n",
+      "e\n",
+      "l\n",
+      " \n",
+      "z\n",
+      "model y\n",
+      "m\n",
+      "o\n",
+      "d\n",
+      "e\n",
+      "l\n",
+      " \n",
+      "y\n"
+     ]
+    }
+   ],
+   "source": [
+    "car_types = [\"gasoline\", \"electric\"]\n",
+    "car_models = [\"model x\", \"model z\", \"model y\"]\n",
+    "\n",
+    "print(\"types\")\n",
+    "for a in car_types:\n",
+    "    print(a)\n",
+    "    for b in a:\n",
+    "        print(b)\n",
+    "\n",
+    "print(\"models\")\n",
+    "for a in car_models:\n",
+    "    print(a)\n",
+    "    for b in a:\n",
+    "        print(b)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "metadata": {},
+   "source": [
+    "***\n",
+    "The code above is showing 2 different arrays with each array's objects is being spelled\n",
+    "***\n",
+    "These are the arrays :\n",
+    "\n",
+    "```\n",
+    "car_types = [\"gasoline\", \"electric\"]\n",
+    "car_models = [\"model x\", \"model z\", \"model y\"]\n",
+    "```\n",
+    "\n",
+    "and these are the steps :\n",
+    "> Print each objects in each array\n",
+    "\n",
+    "> Print each letter in each objects\n",
+    "\n",
+    "> Repeat until all objects in last array is printed with it's each letters\n",
+    "\n",
+    "***\n",
+    "You can refer to this [link](https://www.w3schools.com/python/python_for_loops.asp \"W3School - Python\") for python tutorial"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.7.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 4
+}
